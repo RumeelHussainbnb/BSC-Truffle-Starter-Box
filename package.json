@@ -1,0 +1,32 @@
+{
+  "name": "bsc-starter-box",
+  "version": "1.0.0",
+  "description": "A sample Truffle project that allows developers to deploy to the BNB Smart Chain",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "compile": "truffle compile",
+    "migrate":"truffle migrate",
+    "test:bsc": "truffle test --config=truffle-config.bsc.js --network ",
+    "compile:bsc": "truffle compile --config=truffle-config.bsc.js",
+    "migrate:bsc": "truffle migrate --config=truffle-config.bsc.js --network "
+  },
+  "repository": {
+    
+  },
+  "keywords": [
+    "BSC",
+    "BNB Smart Chain",
+    "BNB Chain"
+  ],
+  "author": "",
+  "license": "MIT",
+    "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.4.2",
+    "dotenv": "^9.0.0"
+  },
+  "dependencies": {}
+}
